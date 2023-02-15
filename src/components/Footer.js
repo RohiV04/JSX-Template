@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -28,24 +29,27 @@ function Footer() {
               
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
                 <li className="nav-item px-4">
+                  <Link to='/about'>
                   <a href="#" className="link-fancy link-fancy-light">
                     About 
                   </a>
+                  </Link>
                 </li>
+                
                 <li className="nav-item px-4">
-                  <a href="#" className="link-fancy link-fancy-light">
-                    Projects
-                  </a>
-                </li>
-                <li className="nav-item px-4">
+                  <Link to='/skills'>
                   <a href="#" className="link-fancy link-fancy-light">
                     Skills
                   </a>
+                  </Link>
                 </li>
+                
                 <li className="nav-item px-4">
+                <Link to='/contact'>
                   <a href="#" className="link-fancy link-fancy-light">
                     Contact 
                   </a>
+                  </Link>
                 </li>
               </ul>
             </div>
