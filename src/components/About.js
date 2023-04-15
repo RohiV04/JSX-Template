@@ -1,125 +1,226 @@
-import React from 'react';
+import React from "react";
+
 function About() {
-    return ( 
-        <>
-        <main>
-  <div className="container">
-    <div className="row d-flex justify-content-center py-vh-5 pb-0">
-      <div className="col-12 col-lg-10 col-xl-8">
-        <div className="row">
-          <div className="col-12">
-            <h1 className="display-1 fw-bold">
-              Skills
-              <span className="fs-4"></span>
-              <br />
-              I Acquire
-            </h1>
-            <p className="lead border-top pt-5 mt-5" data-aos="fade-up">
-            I am a Full Stack Developer with experience in creating web applications using HTML, CSS, and JavaScript. I am proficient in various frameworks such as React and Node.js. I also have experience working with databases like MySQL and MongoDB. Throughout my career, I have worked on a variety of projects, from building e-commerce platforms to developing custom content management systems. I am passionate about staying up-to-date with the latest technologies and am committed to providing the best solutions to clients.
-            </p>
+  return (
+    <>
+      <div className="bg-dark">
+        <div className="container px-vw-5 py-vh-5">
+          <div className="row d-flex align-items-center">
+            <div className="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
+              <span className="h5 text-secondary fw-lighter">What we do</span>
+              <h2 className="display-4">
+                <img
+                  src="./../dev.jpeg"
+                  width={616}
+                  height={0}
+                  alt="abstract image"
+                  className="img-fluid position-relative rounded-5 shadow"
+                  data-aos="fade-up"
+                  data-aos-duration={3000}
+                />
+              </h2>
+            </div>
+            <div className="col-12 col-lg-5" data-aos="fade-left">
+              <h3 className="pt-5">Product Design &amp; Strategy</h3>
+              <p className="text-secondary">
+                With my experience in both front-end and back-end development, I
+                can bring your ideas to life.
+                <br />
+                <a href="#" className="link-fancy link-fancy-light me-2">
+                  Tell me more
+                </a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={24}
+                  height={24}
+                  fill="currentColor"
+                  className="bi bi-arrow-right-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  />
+                </svg>
+              </p>
+              <h3 className="border-top border-secondary pt-5 mt-5">
+                Development &amp; Engineering
+              </h3>
+              <p className="text-secondary">
+                As a Full Stack Developer, I specialize in developing web
+                applications with a focus on user experience and functionality.
+                <br />
+                <a href="#" className="link-fancy link-fancy-light me-2">
+                  Tell me more
+                </a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={24}
+                  height={24}
+                  fill="currentColor"
+                  className="bi bi-arrow-right-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  />
+                </svg>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-12 py-vh-2">
-          <img
-            src="img/webp/abstract18.webp"
-            width={1446}
-            height={982}
-            alt="abstract image"
-            className="img-fluid position-relative rounded-5 shadow"
-            data-aos="zoom-up"
-          />
+      <div className="bg-black py-vh-3">
+        <div className="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
+          <div className="row gx-5">
+            <div className="col-12 col-md-6">
+              <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
+                <div className="bg-dark shadow rounded-5 p-0">
+                  <img
+                    src="img/webp/abstract3.webp"
+                    width={582}
+                    height={327}
+                    alt="abstract image"
+                    className="img-fluid rounded-5 no-bottom-radius"
+                    loading="lazy"
+                  />
+                  <div className="p-5">
+                    <h2 className="fw-lighter">dev by dev</h2>
+                    <p className="pb-4 text-secondary">
+                      I create applications that are both visually appealing and
+                      fully functional.
+                    </p>
+                    <a href="#" className="link-fancy link-fancy-light">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="card bg-transparent" data-aos="zoom-in-up">
+                <div className="bg-dark shadow rounded-5 p-0">
+                  <img
+                    src="img/webp/abstract2.webp"
+                    width={582}
+                    height={442}
+                    alt="abstract image"
+                    className="img-fluid rounded-5 no-bottom-radius"
+                    loading="lazy"
+                  />
+                  <div className="p-5">
+                    <h2 className="fw-lighter">Ipsum dolor est</h2>
+                    <p className="pb-4 text-secondary">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat.
+                    </p>
+                    <a href="#" className="link-fancy link-fancy-light">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6">
+              <div className="p-5 pt-0 mt-5" data-aos="fade">
+                <span className="h5 text-secondary fw-lighter">
+                  Contribution
+                </span>
+                <h2 className="display-4  link-fancy-light">Experience</h2>
+              </div>
+              <div
+                className="card bg-transparent mb-5 mt-5"
+                data-aos="zoom-in-up"
+              >
+                <div className="bg-dark shadow rounded-5 p-0">
+                  <img
+                    src="img/webp/abstract17.webp"
+                    width={582}
+                    height={390}
+                    alt="abstract image"
+                    className="img-fluid rounded-5 no-bottom-radius"
+                    loading="lazy"
+                  />
+                  <div className="p-5">
+                    <h2 className="fw-lighter">Ipsum dolor est</h2>
+                    <p className="pb-4 text-secondary">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat.
+                    </p>
+                    <a href="#" className="link-fancy link-fancy-light">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="card bg-transparent" data-aos="zoom-in-up">
+                <div className="bg-dark shadow rounded-5 p-0">
+                  <img
+                    src="img/webp/abstract4.webp"
+                    width={582}
+                    height={327}
+                    alt="abstract image"
+                    className="img-fluid rounded-5 no-bottom-radius"
+                    loading="lazy"
+                  />
+                  <div className="p-5">
+                    <h2 className="fw-lighter">Ipsum dolor est</h2>
+                    <p className="pb-4 text-secondary">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat.
+                    </p>
+                    <a href="#" className="link-fancy link-fancy-light">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="col-12 col-lg-10 col-xl-8">
-        <div className="row d-flex align-items-start" data-aos="fade-right">
-          <div className="col-12 col-lg-7">
-            <h2 className="h3 mt-5 border-top pt-5">01. Front End</h2>
-            <p className="text-secondary">
-            Proficiency in HTML, CSS, and JavaScript: These are the core building blocks of any front-end developer's toolkit. HTML provides the structure and content of web pages, CSS controls the presentation and styling, and JavaScript provides interactivity and functionality.
-            </p>
-          </div>
-          <div className="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
-            <h3 className="h6 link-fancy link-fancy-light me-2 ">React</h3>
-            <p className="text-secondary">
-            Familiarity with front-end frameworks and libraries: Popular front-end frameworks and libraries like React
-            </p>
-          </div>
-        </div>
-        <div className="row d-flex align-items-start" data-aos="fade-right">
-          <div className="col-12 col-lg-7">
-            <h2 className="h3 mt-5 border-top pt-5">02. Understanding of web design principles</h2>
-            <p className="text-secondary">
-            Front-end developers need to understand the principles of user interface and user experience design. This includes an eye for design and attention to detail, as well as an understanding of how to create responsive, mobile-friendly designs.
-
-            </p>
-          </div>
-          <div className="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
-            <h3 className="h6 link-fancy link-fancy-light me-2">Figma</h3>
-            <p className="text-secondary">
-            Figma is a web-based design tool that enables users to create interactive, collaborative designs. 
-            </p>
-          </div>
-        </div>
-        <div className="row d-flex align-items-start" data-aos="fade-right">
-          <div className="col-12 col-lg-7">
-            <h2 className="h3 mt-5 border-top pt-5">03. Knowledge of cross-browser compatibility</h2>
-            <p className="text-secondary">
-            Front-end developers need to ensure that their web applications are compatible with a range of different browsers and devices. This requires an understanding of the quirks and differences between different browsers and the ability to write code that is flexible and adaptable.
-            </p>
-          </div>
-          <div className="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
-            <h3 className="h6 link-fancy link-fancy-light me-2">React Native</h3>
-            <p className="text-secondary">
-            React Native lets you create truly native apps and doesn't compromise your users' experiences. It provides a core set of platform agnostic native components
-
-            </p>
-          </div>
-        </div>
-        <div className="row d-flex align-items-start" data-aos="fade-right">
-          <div className="col-12 col-lg-7">
-            <h2 className="h3 mt-5 border-top pt-5">
-              04. Experience with version control
-            </h2>
-            <p className="text-secondary">
-            Front-end developers need to be proficient in using version control systems like Git to manage and track changes to their codebase. This allows developers to collaborate more effectively and makes it easier to manage complex projects.
-
-            </p>
-          </div>
-          <div className="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
-            <h3 className="h6 link-fancy link-fancy-light me-2">Git & Github</h3>
-            <p className="text-secondary">
-            GitHub, Inc is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus 
-
-            </p>
-          </div>
-        </div>
-        <div className="row d-flex align-items-start" data-aos="fade-right">
-          <div className="col-12 col-lg-7">
-            <h2 className="h3 mt-5 border-top pt-5">05. Strong knowledge of database concepts</h2>
-            <p className="text-secondary">
-            Database designers need to have a deep understanding of database concepts such as data modeling, normalization, indexing, and query optimization. They should also be familiar with different types of databases, such as relational and NoSQL databases.
-            Database designers should be familiar with database design methodologies such as database normalization, Entity-Relationship modeling, or Dimensional modeling. They should also have a solid understanding of SQL and database programming languages.
-
-            </p>
-          </div>
-          <div className="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5">
-            <h3 className="h6 link-fancy link-fancy-light me-2">MySQL & MongoDB</h3>
-            <p className="text-secondary">
-            MySQL is a widely used relational database management system (RDBMS). MySQL is free and open-source. MySQL is ideal for both small and large applications.
-            MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents
-            </p>
+      <div className="bg-dark position-relative">
+        <div className="container px-vw-5 py-vh-5">
+          <div className="row d-flex align-items-center">
+            <div className="col-12 col-lg-7">
+              <img
+                className="img-fluid rounded-5 mb-n5 shadow"
+                src="img/webp/person9.webp"
+                width={512}
+                height={512}
+                alt="a nice person"
+                loading="lazy"
+                data-aos="zoom-in-right"
+              />
+              <img
+                className="img-fluid rounded-5 ms-5 mb-n5 shadow"
+                src="img/webp/person11.webp"
+                width={512}
+                height={512}
+                alt="another nice person"
+                loading="lazy"
+                data-aos="zoom-in-up"
+              />
+            </div>
+            <div
+              className="col-12 col-lg-5 bg-dark rounded-5 py-5"
+              data-aos="fade"
+            >
+              <span className="h5 text-secondary fw-lighter">
+                Do you like faces?
+              </span>
+              <h2 className="display-4">
+                We constantly adding new images to our website. Does it make
+                sense? No!
+              </h2>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
-  </div>
-</main>
-
-        </>
-     );
+    </>
+  );
 }
 
 export default About;
